@@ -1,20 +1,28 @@
-# Gender-Image-Classification
-Introduction
-Provide a brief introduction to your image classification project. Explain what the project does and its main objectives.
+## Table of Contents
+Provide a list of sections that readers can navigate through in your README.
 
-Features
-List the key features and functionalities of your image classification project. For example:
+- [Getting Started](#getting-started)
+- [Dataset](#dataset)
+- [Training and Evaluation](#training-and-evaluation)
+- [Results](#results)
+- [Conclusion](#conclusion)
+- [Contributing](#contributing)
+- [License](#license)
 
-Image classification using pre-trained models.
-Support for custom datasets.
-Visualization of classification results.
-Model selection options.
-Technologies Used
-List the main technologies, libraries, and frameworks used in your project. For example:
+## Getting Started
+Install srteamlit ,sklearn,pandas,numpy packages and create a conda environment.
 
-Python
-TensorFlow
-Streamlit
-PIL (Pillow)
-Matplotlib
-Seaborn
+## Dataset
+The "Face dataset" is a fictional dataset often used for educational purposes, data analysis practice, and machine learning tutorials. It simulates face data for an computer vission and includes various facial features that is unique to specific individual. Below is an overview of the typical features included in this dataset:
+
+## Model Selection
+Random Forest model is selected.
+Reason:The freatures are non-linearly dependent with the target variable.
+
+## Training and Evaluation
+The data is split into training and validation.
+Training Size=75% samples
+Testing Size=25% samples
+
+## Results
+Accuracy = 0.84321
