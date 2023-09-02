@@ -20,10 +20,11 @@ The "Face dataset" is a fictional dataset often used for educational purposes, d
 Random Forest model is selected.
 Reason:The freatures are non-linearly dependent with the target variable.
 
-## Training and Evaluation
-The data is split into training and validation.
-Training Size=75% samples
-Testing Size=25% samples
+## Training Instructions
+Save the images in respective male and female forlder for training
+Run the train.py file
+Trained model will be saved in save_models folder for inference
 
-## Results
-Accuracy = 0.84321
+## Inferencing
+Place a single iamge in the test_image_folder with name test.jpg
+Run the main.py file
