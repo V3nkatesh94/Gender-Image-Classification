@@ -18,7 +18,7 @@ The "Face dataset" is a fictional dataset often used for educational purposes, d
 
 ## Model Selection
 Random Forest model is selected.
-Reason:The freatures are non-linearly dependent with the target variable.
+Reason:The features are non-linearly dependent with the target variable.
 
 ## Training Instructions
 Save the images in respective male and female forlder for training
